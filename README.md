@@ -14,3 +14,14 @@ Ensure the frontend is running before starting this backend service.
 
 ### 4️⃣ Run the Backend
 Once the database is set up, start this backend service. You’re good to go! 🚀# PetSpaBackend
+
+```
+    properties
+    spring_profiles_active=prod
+    PROD_DB_HOST=mysql.railway.internal
+    PROD_DB_PORT=3306
+    PROD_DB_NAME=railway
+    PROD_DB_PASSWORD=ecdgqwmvonqUjTcIQwztnGMmngShIreS
+    PROD_DB_USERNAME=root
+
+```
