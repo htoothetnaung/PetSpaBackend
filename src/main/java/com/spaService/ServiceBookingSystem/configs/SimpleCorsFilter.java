@@ -14,7 +14,7 @@ import java.io.IOException;
 @Order(Ordered.HIGHEST_PRECEDENCE)
 public class SimpleCorsFilter implements Filter {
 
-    private static final String ALLOWED_ORIGINS = "http://localhost:4200"; // Replace with your frontend's URL
+    private static final String ALLOWED_ORIGINS = "http://localhost:3000"; // Replace with your frontend's URL
     private static final String ALLOWED_METHODS = "POST, GET, PUT, OPTIONS, DELETE";
     private static final String ALLOWED_HEADERS = "Authorization, Content-Type, Accept, X-Requested-With";
     private static final int MAX_AGE = 3600;
